@@ -68,6 +68,7 @@ print(indexlist())
 def concatstr():
     list1 = ["Hello ", "take "]
     list2 = ["Dear", "Sir"]
+    print(list1+list2)
     res=[]
     res.append(list1[0]+list2[0])
     res.append(list1[0]+list2[len(list2)-1])
